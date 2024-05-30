@@ -9,7 +9,6 @@ declare module 'vue' {
   export interface GlobalComponents {
     Answer: typeof import('./src/components/answer.vue')['default']
     Category: typeof import('./src/components/category.vue')['default']
-    copy: typeof import('./src/components/category copy.vue')['default']
     Engine: typeof import('./src/components/engine.vue')['default']
     Footer: typeof import('./src/components/footer.vue')['default']
     Language: typeof import('./src/components/language.vue')['default']
@@ -23,7 +22,6 @@ declare module 'vue' {
     SearchInputBar: typeof import('./src/components/searchInputBar.vue')['default']
     Settings: typeof import('./src/components/settings.vue')['default']
     Sources: typeof import('./src/components/sources.vue')['default']
-    TAffix: typeof import('tdesign-vue-next')['Affix']
     TAlert: typeof import('tdesign-vue-next')['Alert']
     TButton: typeof import('tdesign-vue-next')['Button']
     TDivider: typeof import('tdesign-vue-next')['Divider']

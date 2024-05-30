@@ -3,8 +3,8 @@
     <div class="mt-36 flex w-full flex-col gap-4 p-4 sm:-mt-28 lg:max-w-3xl xl:max-w-4xl">
       <div class="flex items-center justify-center gap-2">
         <img :src="logoUrl" class="w-10" />
-        <span class="text-3xl font-bold dark:text-gray-100">AI Search</span>
-        <t-tag variant="light" class="text-xs text-gray-500">beta</t-tag>
+        <span class="text-3xl font-bold dark:text-gray-100">AI 搜索 </span>
+        <t-tag variant="light" class="text-xs text-gray-500">BASETEC</t-tag>
       </div>
       <SearchInputBar :autofocus="true" :loading="false" @search="search" />
       <div class="my-2 flex flex-wrap items-center justify-center gap-4">
@@ -36,7 +36,7 @@
 import router from '../router';
 import { RiSearch2Line } from '@remixicon/vue';
 import { PageFooter, SearchInputBar, SearCategory, SearchMode } from '../components';
-import logoUrl from '../assets/logo.png';
+import logoUrl from '../assets/lan1.png';
 import { useI18n } from 'vue-i18n';
 import { computed } from 'vue';
 import { useAppStore } from '../store';
