@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { RiSettingsLine, RiGithubLine } from '@remixicon/vue';
+import { RiSettingsLine } from '@remixicon/vue';
 
 type Emit = {
   (e: 'show'): void;
