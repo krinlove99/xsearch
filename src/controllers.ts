@@ -93,13 +93,13 @@ export const chatStreamController = async (ctx: Context) => {
 };
 
 export const modelsController = async (ctx: Context) => {
-  const { GOOGLE_KEY, ALIYUN_KEY, OPENAI_KEY, BAIDU_KEY, TENCENT_KEY, YI_KEY, MOONSHOT_KEY, LEPTON_KEY, DEEPSEEK_KEY, GLM_KEY } = process.env;
+  const { GOOGLE_KEY, ALIYUN_KEY, OPENAI_KEY, BAIDU_KEY, YI_KEY, MOONSHOT_KEY, LEPTON_KEY, DEEPSEEK_KEY, GLM_KEY } = process.env;
   const keys: Record<string, string | undefined> = {
     google: GOOGLE_KEY,
     aliyun: ALIYUN_KEY,
     openai: OPENAI_KEY,
     baidu: BAIDU_KEY,
-    tencent: TENCENT_KEY,
+    // tencent: TENCENT_KEY,
     yi: YI_KEY,
     moonshot: MOONSHOT_KEY,
     lepton: LEPTON_KEY,

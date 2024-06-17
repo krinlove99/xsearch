@@ -61,10 +61,11 @@ export const Models: IModelInfo[] = [
     platform: 'chatglm',
     type: 'openai',
     models: ['glm-4', 'glm-4v', 'glm-3-turbo']
-  },
-  {
-    platform: 'tencent',
-    type: 'tencent',
-    models: ['std', 'pro']
   }
+  // ,
+  // {
+  //   platform: 'tencent',
+  //   type: 'tencent',
+  //   models: ['std', 'pro']
+  // }
 ];
