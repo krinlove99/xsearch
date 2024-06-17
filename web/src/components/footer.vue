@@ -43,7 +43,7 @@ export default {
     </div>
     <a href="https://orence.net" target="bank">
       <t-button size="small" shape="round" variant="text">
-        潮汐助手-更好的AI与增强的答案
+        X-Chat-更好的AI，更好的未来
       </t-button>
     </a>
   </div>

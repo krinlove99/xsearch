@@ -22,10 +22,10 @@ onMounted(() => {
     //  name: t('google'),
     //  value: 'GOOGLE'
     //},
-    {
-      name: t('bing'),
-      value: 'BING'
-    },
+    // {
+    //   name: t('bing'),
+    //   value: 'BING'
+    // },
     //{
     //  name: t('sogou'),
     //  value: 'SOGOU'

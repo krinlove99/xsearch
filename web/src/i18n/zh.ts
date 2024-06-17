@@ -1,5 +1,5 @@
 export default {
-  title: 'TIDE-Search丨基于AI的搜索引擎',
+  title: 'X-搜索丨基于AI的搜索引擎',
   subtitle: '没有广告，直达结果',
   theme: '主题',
   answer: 'AI回答',

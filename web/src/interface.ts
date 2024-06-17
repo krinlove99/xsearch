@@ -19,4 +19,5 @@ export interface IMessage {
 
 export type TSearCategory = 'general' | 'science' | 'images' | 'videos' | 'news'
 export type TSearchMode = 'simple' | 'deep' | 'research'
-export type TSearchEngine = 'GOOGLE' | 'BING' | 'SOGOU' | 'SEARXNG'
+// export type TSearchEngine = 'GOOGLE' | 'BING' | 'SOGOU' | 'SEARXNG'
+export type TSearchEngine = 'SEARXNG'

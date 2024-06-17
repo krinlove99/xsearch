@@ -1,5 +1,5 @@
 export default {
-  title: 'TIDE-Search with AI',
+  title: 'X-Search with AI',
   subtitle: 'NO AD,BIUBIUBIU!',
   theme: 'Theme',
   ask: 'Me',

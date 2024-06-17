@@ -2,10 +2,11 @@
   <div id="home" class="flex size-full items-center justify-center overflow-y-auto h-screen ">
     <div class="mt-20 flex w-full flex-col gap-4 p-4 sm:mt-10 lg:max-w-3xl xl:max-w-4xl">
       <div class="flex items-center justify-center gap-2">
-        <img src="https://io.onenov.cn/file/202405120135970.svg" class="w-64" />
+        <!-- <img src="https://io.onenov.cn/file/202405120135970.svg" class="w-64" /> -->
       </div>
       <div class="flex items-center justify-center gap-2">
-        <span class="text-3xl font-bold dark:text-gray-100">TIDE AI Search</span>
+        <span class="text-3xl font-bold dark:text-gray-100" style="display: flex;vertical-align: middle;align-items: center;"><img :src="logoUrl" class="w-10" style="margin-right: 10px;" />AI 搜索</span>
+        <t-tag variant="light" class="text-xs text-gray-500" style="margin-top: -10px;">BASETEC</t-tag>
       </div>
       <div class="flex items-center justify-center gap-2">
         <span class="text-xl mb-4 font-bold dark:text-gray-100">{{ t('subtitle') }}</span>
@@ -62,6 +63,9 @@ import { useI18n } from 'vue-i18n';
 import { computed } from 'vue';
 import { useAppStore } from '../store';
 import { type SwitchValue } from 'tdesign-vue-next';
+import logoUrl from '../assets/lan1.png';
+// import logobasetecUrl from '../assets/basetec.png';
+
 const onChangeTheme = (val: SwitchValue) => {
   if (val) appStore.updateTheme('dark');
   else appStore.updateTheme('light');
@@ -77,7 +81,6 @@ const quickly: Record<string, string[]> = {
   zh: [
     '什么是大语言模型LLM?',
     '怎么使用Ollama在本地部署大模型?',
-    '苹果开发者大会？',
     '编程实现最长公共子序列？',
   ],
   en: [
