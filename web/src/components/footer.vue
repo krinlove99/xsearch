@@ -41,9 +41,9 @@ export default {
     <div class="text-center text-xs text-gray-400 mb-2">
       {{ t('warning') }}
     </div>
-    <a href="https://basetec.top" target="bank">
+    <a href="https://arcnix.com" target="bank">
       <t-button size="small" shape="round" variant="text">
-        X-Chat-更好的AI，更好的未来
+        Arcnix AI-更好的AI，更好的未来
       </t-button>
     </a>
   </div>

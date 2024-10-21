@@ -25,7 +25,7 @@ export const Models: IModelInfo[] = [
     platform: 'openai',
     type: 'openai',
     //models: ['gpt-3.5-turbo', 'gpt-4-0125-preview', 'gpt-4-turbo-preview', 'gpt-4o']
-    models: ['deepseek_chat','glm4','Moonshot-free']
+    models: ['deepseek_chat','glm-4-xsearch','gemini-1.5-xearch']
   },
   {
     platform: 'baidu',

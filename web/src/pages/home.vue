@@ -6,7 +6,7 @@
       </div>
       <div class="flex items-center justify-center gap-2">
         <span class="text-3xl font-bold dark:text-gray-100" style="display: flex;vertical-align: middle;align-items: center;"><img :src="logoUrl" class="w-10" style="margin-right: 10px;" />AI 搜索</span>
-        <t-tag variant="light" class="text-xs text-gray-500" style="margin-top: -10px;">BASETEC</t-tag>
+        <t-tag variant="light" class="text-xs text-gray-500" style="margin-top: -10px;">Arcnix</t-tag>
       </div>
       <div class="flex items-center justify-center gap-2">
         <span class="text-xl mb-4 font-bold dark:text-gray-100">{{ t('subtitle') }}</span>
